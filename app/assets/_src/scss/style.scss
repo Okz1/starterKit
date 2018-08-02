@@ -1,0 +1,24 @@
+/*----- import helpers -------------------------------------------*/
+@import 'helpers/_variables.scss';
+@import 'helpers/_mixin.scss';
+
+/*----- import vendors -------------------------------------------*/
+@import 'vendor/jquery.fancybox';
+
+/*----- import globals -------------------------------------------*/
+@import 'globals/_fonts.scss';
+@import 'globals/_reset.scss';
+@import 'globals/_base.scss';
+
+/*----- import components -------------------------------------------*/
+@import 'components/_buttons.scss';
+@import 'components/_inputs.scss';
+@import 'components/_modals.scss';
+@import 'components/_other-components.scss';
+@import 'components/_typography.scss';
+
+/*----- import modules -------------------------------------------*/
+@import 'modules/_header.scss';
+@import 'modules/_footer.scss';
+
+/*----- import adaptive -------------------------------------------*/

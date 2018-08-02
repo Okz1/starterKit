@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% include 'chunks/_head.njk' %}
+    <title>{% block title %}Example{% endblock %}</title>
+</head>
+
+<body class="{% block bodyClass %}{% endblock %}">
+
+<div class="main-wrapper">
+
+    {%include 'chunks/_header.njk' %}
+
+    <main class="main">
+        {% block main %}{% endblock %}
+    </main>
+
+    {%include 'chunks/_footer.njk' %}
+
+</div>
+
+{% block modals %}{% endblock %}
+
+{% include 'chunks/_scripts.njk' %}
+
+</body>
+</html>
